@@ -2,14 +2,13 @@ import React from 'react'
 import Image from "next/image";
 import hero from '../../../assets/images/hero.png'
 
-function Hero() {
+function Hero({dictionary}) {
     return (
         <div className='container flex flex-col md:flex-row'>
             <div className='md:w-1/2 w-full bg-slate-600 grid items-center justify-items-center md:justify-items-start'>
                 <div>
                     <h1 className='text-5xl text-white font-bold pb-5'>
-                        Launch your <br />
-                        Ownonline learning <br /> Platform
+                       {dictionary}
                     </h1>
                     <p className='font-bold text-white'>Unlimited access to all 60+ instructors.</p>
                 </div>

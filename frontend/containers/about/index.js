@@ -1,8 +1,8 @@
 import React from 'react'
 
-function AboutContainer() {
+function AboutContainer({lang}) {
   return (
-    <div>AboutContainer</div>
+    <div>{lang.greeting}</div>
   )
 }
 

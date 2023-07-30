@@ -3,10 +3,10 @@ import Course from "@/components/homePage/course"
 import Hero from "@/components/homePage/hero"
 import LearningPath from "@/components/homePage/learningPath"
 
-function HomeContainer() {
+function HomeContainer({dictionary}) {
     return (
         <div>
-            <Hero />
+            <Hero dictionary={dictionary.hero}/>
             <Course />
             <About />
             <LearningPath />

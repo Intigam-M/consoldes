@@ -3,7 +3,7 @@ import CourseCard from './courseCard'
 
 function Course() {
     return (
-        <div className='bg-yellow-200'>
+        <div className='bg-[#edeef3]'>
             <div className='container py-16'>
                 <div className='flex items-center flex-col md:py-10 px-10 md:px-0 pb-6'>
                     <div className='md:w-1/3 w-full pb-6'>

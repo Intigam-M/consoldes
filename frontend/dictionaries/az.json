@@ -1,6 +1,10 @@
 {
     "homePage": {
-        "hero": "hero aze cevrildi",
-        "course": "Kurslar"
+        "hero": {
+            "heroTitle": "Gələcəyinizi Bizimlə Parlaq Şəkildə Proqramlaşdırın!",
+            "heroSpan": "Peşəkar Developer olmağın yolu CONSOLDES-dən keçir"
+        }
     }
 }
+
+

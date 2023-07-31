@@ -1,6 +1,9 @@
 {
     "homePage": {
-        "hero": "Launch your Ownonline learning Platform",
-        "course": "Find The Right Online Course For You"
+        
+        "hero": {
+            "heroTitle": "Program your Future the right way WITH US!",
+            "heroSpan": "The way to become a professional developer is through CONSOLDES."
+        }
     }
 }

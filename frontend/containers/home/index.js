@@ -4,6 +4,7 @@ import Hero from "@/components/homePage/hero"
 import LearningPath from "@/components/homePage/learningPath"
 
 function HomeContainer({dictionary}) {
+
     return (
         <div>
             <Hero dictionary={dictionary.hero}/>

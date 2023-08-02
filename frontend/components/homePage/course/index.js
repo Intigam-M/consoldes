@@ -13,9 +13,10 @@ function Course() {
                     <p className='text-slate-600'>You dont have to struggle alone, youve got our assistance and help.</p>
                 </div>
                 <div className='grid md:grid-cols-3 grid-cols-1 gap-5 py-10 px-5 md:px-0'>
-                    <CourseCard />
-                    <CourseCard />
-                    <CourseCard />
+                <CourseCard lesson="61" title="JavaScript Fundamental Biliklər" price="Free"/>
+                <CourseCard lesson="20" title="Yeni Başlayanlar üçün React JS" price="Free"/>
+                <CourseCard lesson="40" title="JavaScript Projects" price="Free"/>
+                    
                 </div>
             </div>
         </div>

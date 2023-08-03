@@ -1,10 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
-function CourseCard({lesson,title,price}) {
+function CourseCard({lesson,title,price,image}) {
     return (
-        <div className='bg-green-300 h-[500px] rounded shadow-lg flex flex-col mb-6'>
-            <div className='bg-red-300 h-2/4 rounded'>Image here</div>
+        <div className='bg-slate-100 h-[500px] rounded shadow-lg flex flex-col mb-6'>
+            <div className=' h-2/4 rounded'>
+                <Image src={image}  />
+            </div>
             <div></div>
 
             <div className='p-6 border-b'>

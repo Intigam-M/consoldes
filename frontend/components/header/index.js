@@ -30,7 +30,7 @@ function Header() {
     };
 
     return (
-        <header className='bg-[#9584FF]'>
+        <header className='bg-gradient-to-r from-fuchsia-500 to-violet-500'>
             <nav className='p-5 md:flex md:items-center md:justify-between container'>
                 <div className='flex justify-between items-center'>
                     <Image src={Logo} alt="hero" width={40} height={40} />

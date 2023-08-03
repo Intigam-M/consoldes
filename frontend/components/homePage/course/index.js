@@ -13,7 +13,7 @@ function Course() {
                         <p className='text-4xl text-center text-[#761574] font-bold'>Find The Right Online Course For You</p>
                     </div>
 
-                    <p className='text-slate-600'>You dont have to struggle alone, youve got our assistance and help.</p>
+                    <p className='text-[#761574]'>You dont have to struggle alone, youve got our assistance and help.</p>
                 </div>
                 <div className='grid md:grid-cols-3 grid-cols-1 gap-5 py-10 px-5 md:px-0'>
                 <CourseCard image={javascript} lesson="61" title="JavaScript Fundamental Biliklər" price="Free"/>

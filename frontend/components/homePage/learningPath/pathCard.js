@@ -1,14 +1,13 @@
 import React from 'react'
+import Image from 'next/image'
 
-function PathStep() {
+function PathStep({image, title, content, color}) {
   return (
-    <div className='bg-green-300 h-56 md:h-64 md:w-64 rounded shadow-lg p-8 flex flex-col justify-between mb-6'>
-        Image here
+    <div className={`${color} h-56 md:h-96 md:w-64 rounded items-center shadow-lg p-8 flex flex-col justify-between mb-6`}>
+        <Image src={image} width={100} height={100}  />
 
-        <p className='text-white font-bold text-2xl'>4,000
-        Online courses</p>
-        <p className='text-white'>Arse dolar amaet sit gormless 
-            wind up butty amett </p>
+        <p className='text-white font-bold text-2xl'>{title}</p>
+        <p className='text-white'>{content} </p>
     </div>
   )
 }

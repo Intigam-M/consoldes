@@ -24,12 +24,12 @@ function LearningPath() {
                             image={backend} 
                             title="Back-End Development" 
                             content="Front-End Developer olmaq üçün bilməli olduğunuz proqramlaşdırma dilləri"
-                            color="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"/>
+                            color="bg-gradient-to-r from-pink-500 via-[#CB6CE6] to-[#004AAD]"/>
                     <PathStep 
                             image={mobil} 
                             title="Mobil Development" 
                             content="Front-End Developer olmaq üçün bilməli olduğunuz proqramlaşdırma dilləri"
-                            color="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"/>
+                            color="bg-gradient-to-r from-[#004AAD] via-[#8C52FF] to-[#5CE1E6]"/>
                     <PathStep 
                             image={game} 
                             title="Game Development" 

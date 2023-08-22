@@ -8,7 +8,7 @@ import game from '@/assets/images/game.png'
 function LearningPath() {
     return (
         <div>
-            <div className='container py-16'>
+            <div className='container pb-16'>
                 <div className='flex items-center flex-col md:py-10 px-10 md:px-0 pb-6'>
                     <div className='md:w-2/3 w-full pb-6'><p className='text-5xl text-[#761574] text-center font-bold'>Learning Paths</p></div>
 

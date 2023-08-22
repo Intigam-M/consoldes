@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-        <div className='container flex md:flex-row flex-col justify-between'>
+        <div className='container py-16 pb-16 flex md:flex-row flex-col justify-between'>
             <div className='bg-red-200 md:w-1/2'>image here</div>
             <div className='bg-lime-500 md:w-1/2'>
                 <p className='text-3xl font-medium'>Achieve Your <br />

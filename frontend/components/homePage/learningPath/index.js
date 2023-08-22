@@ -10,31 +10,32 @@ function LearningPath() {
         <div>
             <div className='container py-16'>
                 <div className='flex items-center flex-col md:py-10 px-10 md:px-0 pb-6'>
-                    <div className='md:w-1/3 w-full pb-6'><p className='text-4xl font-bold'>Why An Scholercity Out Of The Ordinary</p></div>
+                    <div className='md:w-2/3 w-full pb-6'><p className='text-5xl text-[#761574] text-center font-bold'>Learning Paths</p></div>
 
-                    <p className='text-slate-600'>You dont have to struggle alone, youve got our assistance and help.</p>
+                    <p className='text-[#761574]'>Discover your optimal learning path to reach your full potential.</p>
                 </div>
                 <div className=' flex justify-between md:flex-row flex-col items-center gap-3'>
                     <PathStep 
                             image={frontend} 
                             title="Front-End Development" 
                             content="Front-End Developer olmaq üçün bilməli olduğunuz proqramlaşdırma dilləri"
-                            color="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"/>
+                            color="bg-gradient-to-r from-[#ed71ad]    to-[#f492f0]"/>
+                       
                     <PathStep 
                             image={backend} 
                             title="Back-End Development" 
                             content="Front-End Developer olmaq üçün bilməli olduğunuz proqramlaşdırma dilləri"
-                            color="bg-gradient-to-r from-pink-500 via-[#CB6CE6] to-[#004AAD]"/>
+                            color="bg-gradient-to-r from-[#f492f0]  to-fuchsia-500"/>
                     <PathStep 
                             image={mobil} 
                             title="Mobil Development" 
                             content="Front-End Developer olmaq üçün bilməli olduğunuz proqramlaşdırma dilləri"
-                            color="bg-gradient-to-r from-[#004AAD] via-[#8C52FF] to-[#5CE1E6]"/>
+                            color="bg-gradient-to-r from-fuchsia-500  to-[#b84fce]"/>
                     <PathStep 
                             image={game} 
                             title="Game Development" 
                             content="Front-End Developer olmaq üçün bilməli olduğunuz proqramlaşdırma dilləri"
-                            color="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"/>
+                            color="bg-gradient-to-r from-[#b84fce] to-[#761574]"/>
                 </div>
             </div>
         </div>

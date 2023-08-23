@@ -11,7 +11,7 @@ import Link from "next/link";
 
 function Footer() {
     return (
-        <footer className="bg-gradient-to-r from-[#942a93] via-purple-500 to-[#942a93]">
+        <footer className="bg-gradient-to-r from-[#761574] via-[#b340b1] to-[#761574]">
             <div className="flex flex-col items-center py-16 gap-5">
                 <div className="flex">
                 <Image src={Logo} alt="hero" width={40} height={40} />

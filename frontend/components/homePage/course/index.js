@@ -9,8 +9,8 @@ function Course() {
         <div className='bg-white'>
             <div className='container py-16'>
                 <div className='flex items-center flex-col md:py-10 px-10 md:px-0 '>
-                    <div className='md:w-1/3 w-full pb-6'>
-                        <p className='text-4xl text-center text-[#761574] font-bold'>Find The Right Online Course For You</p>
+                    <div className='md:w-2/3 w-full pb-6'>
+                        <p className='text-5xl text-center text-[#761574] font-bold'>Find The Right Online Course For You</p>
                     </div>
 
                     <p className='text-[#761574]'>You dont have to struggle alone, youve got our assistance and help.</p>

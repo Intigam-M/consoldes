@@ -4,9 +4,9 @@ import target from '@/assets/images/target.png'
 
 function About(image) {
   return (
-    <div>
+    <div className='py-28'>
       <div><p className='text-center text-5xl text-[#761574] font-bold'>Achieve Your Goals</p></div>
-        <div className='container py-16 pb-16 flex md:flex-row flex-col justify-between'>
+        <div className='container py-16  flex md:flex-row flex-col justify-between'>
           
             
             <div className='md:w-1/2 '>

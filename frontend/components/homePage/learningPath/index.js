@@ -7,12 +7,12 @@ import game from '@/assets/images/game.png'
 
 function LearningPath() {
     return (
-        <div>
-            <div className='container pb-16'>
+        <div className='pb-20 pt-10'>
+            <div className='container '>
                 <div className='flex items-center flex-col md:py-10 px-10 md:px-0 pb-6'>
                     <div className='md:w-2/3 w-full pb-6'><p className='text-5xl text-[#761574] text-center font-bold'>Learning Paths</p></div>
 
-                    <p className='text-[#761574]'>Discover your optimal learning path to reach your full potential.</p>
+                    <p className='text-[#761574] text-lg'>Discover your optimal learning path to reach your full potential.</p>
                 </div>
                 <div className=' flex justify-between md:flex-row flex-col items-center gap-3'>
                     <PathStep 

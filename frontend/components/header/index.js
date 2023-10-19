@@ -12,7 +12,6 @@ import Logo from '@/assets/images/logo.png';
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const pathName = usePathname()
-    console.log(pathName)
 
     const currentLang = () => {
         if (pathName.includes('/az')) {

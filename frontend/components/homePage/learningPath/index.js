@@ -18,26 +18,26 @@ function LearningPath() {
                     <PathStep 
                             image={frontend} 
                             title="Front-End Development" 
-                            slug="front-end-development"
+                            slug="front_end_development"
                             content="Front-end istifadəçinin gördüyü və qarşılıqlı əlaqədə olduğu proqram və ya ziyarət etdiyi Veb Saytdır."
                             color="bg-gradient-to-r from-[#ed71ad]    to-[#f492f0]"/>
                        
                     <PathStep 
                             image={backend} 
                             title="Back-End Development" 
-                            slug="back-end-development"
+                            slug="back_end_development"
                             content="Back-end istifadəçinin görmədiyi, veb saytın arxa üzü, məlumatların emal edildiyi və saxlandığı yerdir."
                             color="bg-gradient-to-r from-[#f492f0]  to-fuchsia-500"/>
                     <PathStep 
                             image={mobil} 
                             title="Mobil Development" 
-                            slug="mobil-development"
+                            slug="mobil_development"
                             content="Bu günlərdə mobil proqramlar yaratmaq üçün lazım olan tool-lar iki kateqoriyaya bölünür: native və cross-platfrom"
                             color="bg-gradient-to-r from-fuchsia-500  to-[#b84fce]"/>
                     <PathStep 
                             image={game} 
                             title="Game Development" 
-                            slug="game-development"
+                            slug="game_development"
                             content="Game Development dünya üzrə 3 milyarda yaxın oyunçu ilə ən sürətlə inkişaf edən sektorlardan biridir."
                             color="bg-gradient-to-r from-[#b84fce] to-[#761574]"/>
                 </div>

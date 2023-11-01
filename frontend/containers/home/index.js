@@ -9,7 +9,7 @@ function HomeContainer({dictionary}) {
         <div>
             <Hero dictionary={dictionary.hero}/>
             <Course />
-            <LearningPath />
+            <LearningPath dictionary={dictionary.learning_path}/>
             <About />
             
             

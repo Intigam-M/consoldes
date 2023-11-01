@@ -3,7 +3,6 @@ import Image from "next/image";
 import hero from '../../../assets/images/hero.png'
 
 function Hero({ dictionary }) {
-    console.log(dictionary);
     return (
         <div className='bg-gradient-to-r from-fuchsia-500 to-violet-500'>
             <div className='container flex flex-col md:flex-row gap-10'>

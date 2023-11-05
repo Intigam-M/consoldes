@@ -10,7 +10,7 @@ function About(image) {
           
             
             <div className='md:w-1/2 '>
-            <Image src={target} width={700} height={700} />
+            <Image src={target} width={700} height={700} alt=""/>
             </div>
             <div className='md:w-1/2'>
                 <p className='text-4xl font-medium text-[#361235]'>Why CONSOLDES?</p><br />

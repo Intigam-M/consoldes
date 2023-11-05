@@ -6,7 +6,7 @@ function CourseCard({lesson,title,price,image}) {
     return (
         <div className='bg-[#FDFDFD] h-[500px] rounded shadow-lg flex flex-col mb-6'>
             <div className=' h-2/4 rounded'>
-                <Image src={image}  />
+                <Image src={image}  alt=""/>
             </div>
             <div></div>
 

@@ -4,24 +4,11 @@ import { GiHamburgerMenu } from "react-icons/Gi";
 import { GrClose } from "react-icons/Gr";
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/languageSwitcher';
-import { usePathname } from "next/navigation";
 import Image from 'next/image';
 import Logo from '@/assets/images/logo.png';
 
-
-function Header() {
+function Header({currentLang}) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const pathName = usePathname()
-
-    const currentLang = () => {
-        if (pathName.includes('/az')) {
-            return 'az'
-        } else if (pathName.includes('/en')) {
-            return 'en'
-        }
-    }
-
-
 
     const toggleMenu = (e) => {
         e.preventDefault();
@@ -41,19 +28,19 @@ function Header() {
                 </div>
                 <ul className={`md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-2 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-200 ${isMenuOpen ? "top-[70px] opacity-100" : ""}`}>
                     <li className='mx-4 my-6 md:my-0'>
-                        <Link href={`/${currentLang()}`} className='text-xl text-white hover:text-red-800'>Home</Link>
+                        <Link href={`/${currentLang}`} className='text-xl text-white hover:text-red-800'>Home</Link>
                     </li>
                     <li className='mx-4 my-6 md:my-0'>
-                        <Link href={`/${currentLang()}/course`} className='text-xl text-white hover:text-red-800'>Courses</Link>
+                        <Link href={`/${currentLang}/course`} className='text-xl text-white hover:text-red-800'>Courses</Link>
                     </li>
                     <li className='mx-4 my-6 md:my-0'>
-                        <Link href={`/${currentLang()}/blog`} className='text-xl text-white hover:text-red-800'>Blog</Link>
+                        <Link href={`/${currentLang}/blog`} className='text-xl text-white hover:text-red-800'>Blog</Link>
                     </li>
                     <li className='mx-4 my-6 md:my-0'>
-                        <Link href={`/${currentLang()}/about`} className='text-xl text-white hover:text-red-800'>About</Link>
+                        <Link href={`/${currentLang}/about`} className='text-xl text-white hover:text-red-800'>About</Link>
                     </li>
                     <li className='mx-4 my-6 md:my-0'>
-                        <Link href={`/${currentLang()}/contact`} className='text-xl text-white hover:text-red-800'>Contact</Link>
+                        <Link href={`/${currentLang}/contact`} className='text-xl text-white hover:text-red-800'>Contact</Link>
                     </li>
                     
                 </ul>

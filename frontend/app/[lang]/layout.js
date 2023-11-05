@@ -15,7 +15,7 @@ export default function RootLayout({ children, params }) {
         <html lang={params.lang}>
             <body className={inter.className}>
                 <div className="min-h-screen flex flex-col">
-                    <Header />
+                    <Header currentLang={params.lang} />
                     <main className="flex-1"> {children} </main>
                     <Footer />
                 </div>

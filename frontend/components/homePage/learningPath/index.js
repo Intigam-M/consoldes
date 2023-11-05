@@ -5,7 +5,7 @@ import backend from '@/assets/images/backend.png'
 import mobil from '@/assets/images/mobil.png'
 import game from '@/assets/images/game.png'
 
-function LearningPath({dictionary}) {
+function LearningPath({dictionary, currentLang}) {
     return (
         <div className='pb-20 pt-10'>
             <div className='container '>
@@ -20,6 +20,7 @@ function LearningPath({dictionary}) {
                             title="Front-End Development" 
                             slug="front_end_development"
                             content={dictionary.card.front_end}
+                            currentLang={currentLang}
                             color="bg-gradient-to-r from-[#ed71ad]    to-[#f492f0]"/>
                        
                     <PathStep 
@@ -27,18 +28,21 @@ function LearningPath({dictionary}) {
                             title="Back-End Development" 
                             slug="back_end_development"
                             content={dictionary.card.back_end}
+                            currentLang={currentLang}
                             color="bg-gradient-to-r from-[#f492f0]  to-fuchsia-500"/>
                     <PathStep 
                             image={mobil} 
                             title="Mobil Development" 
                             slug="mobil_development"
                             content={dictionary.card.mobile}
+                            currentLang={currentLang}
                             color="bg-gradient-to-r from-fuchsia-500  to-[#b84fce]"/>
                     <PathStep 
                             image={game} 
                             title="Game Development" 
                             slug="game_development"
                             content={dictionary.card.game}
+                            currentLang={currentLang}
                             color="bg-gradient-to-r from-[#b84fce] to-[#761574]"/>
                 </div>
             </div>

@@ -9,21 +9,21 @@
             "title": "Learning Paths",
             "span": "Discover your optimal learning path to reach your full potential.",
             "card": {
-                "front_end":"it is test",
-                "back_end": "Back-end istifadəçinin görmədiyi, veb saytın arxa üzü, məlumatların emal edildiyi və saxlandığı yerdir.",
-                "mobile":"Bu günlərdə mobil proqramlar yaratmaq üçün lazım olan tool-lar iki kateqoriyaya bölünür: native və cross-platfrom",
-                "game": "Game Development dünya üzrə 3 milyarda yaxın oyunçu ilə ən sürətlə inkişaf edən sektorlardan biridir."
+                "front_end":"The front-end is what the user sees and interacts with. It’s the app on your phone or the website you visit.",
+                "back_end": "The front-end is what the user interacts with. The back-end is where the data gets processed and stored.",
+                "mobile":"These days there are a large set of tools (native and cross-platform tools) available for building mobile apps.",
+                "game": "Gaming is one of the fastest-growing industry sectors with nearly 3 billion gamers worldwide."
             }
         }
     },
     "learningPath": {
         "front_end_development": {
-            "secondTitle": "To be continued",
-            "mainContent": "Peşəkar Developer kimi karyera qurmağa çalışırsınızsa, ilk üç və altı ayı Proqramlaşdırma Dillərinin əsaslarını mənimsəməyə həsr etməlisiniz.",
+            "secondTitle": "The essential skills every front-end developer must have.",
+            "mainContent": "If you're pursuing a career as a professional Developer, you should dedicate the first three to six months to mastering the fundamentals.Every web or mobile application has two parts: a front-end and a back-end. The front-end is what the user sees and interacts with. It’s the app on your phone or the website you visit. So, front-end developers are in charge of building beautiful, interactive user interfaces.",
             "sections": [
                 {
                     "title": "HTML & CSS",
-                    "content": "Front-end Development HTML və CSS ilə başlayır. Bunlar İnternetdəki hər veb səhifənin arxasındakı proqramlaşdırma dilləridir.",
+                    "content": "Front-end development starts with HTML and CSS. These are the languages behind every web page on the Internet.",
                     "course": false,
                     "level": false
                 },
